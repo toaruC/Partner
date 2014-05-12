@@ -1,0 +1,149 @@
+/*@group -----structure----*/
+article{
+	float: left;
+	width: 69.3%;
+	max-width: 61em;
+}
+
+aside{
+	float: left;
+	width: 28.2%;
+	max-width: 24.8em;
+	margin-left: 2%;
+	padding: 1em 0;
+	text-align: center;
+}
+aside img{
+	margin: 1em 0;
+}
+
+.publish-list li{
+	padding-bottom: 1em;
+	border-bottom: 1px #eeeeee solid;
+}
+
+.publish-imgbox{
+	margin: 1em;
+}
+
+.publish-info h1{
+	margin: 1.3em 0.4em;
+}
+.publish-info h2{
+	margin: 1.3em 0.4em;
+}
+.publish-info .info-message{
+	margin: 1.3em 0.4em;
+}
+
+.publish-status{
+	margin: 1em 11.3em;
+}
+/*@group -----text----*/
+aside h2{
+	font-size: 1.8em;
+	color: #666666;
+}
+aside h3{
+	font-size: 1.8em;
+	color: #444444;
+	line-height: 2em;
+}
+aside p{
+	font-size: 1.6em;
+	color: #666666;
+	line-height: 2em;
+	text-align: left;
+	margin-left: 3em;
+}
+
+.publish-info h1{
+	font-size: 2em;
+	color: rgb(120,120,120);
+	font-weight: normal;
+}
+.publish-info h2{
+	font-size: 1.8em;
+	font-style: italic;
+	letter-spacing: 0.1em;
+	color: rgb(250,115,97);
+	font-weight: normal;
+}
+.publish-info a{
+	text-decoration: none;
+	color: rgb(250,115,97);
+}
+.publish-info .info-message{
+	font-size: 1.8em;
+	color: rgb(204,204,204);
+}
+
+.publish-status .status-pass{
+	display: inline-block;
+	border: 2px rgb(250,115,97) solid;
+	border-radius: 5px;
+	font-size: 1.8em;
+	width: 6em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	color: rgb(240,115,97);
+}
+
+.publish-status .status-reject{
+	display: inline-block;
+	border: 2px #999999 solid;
+	border-radius: 5px;
+	font-size: 1.8em;
+	width: 6em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	color: #999999;
+}
+
+/*@group -----button----*/
+.myButton-red {
+	background-color:#f24537;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:20px;
+	padding:10px 30px;
+	text-decoration:none;
+	margin-right: 1.5em;
+}
+.myButton-red:hover {
+	background-color:#c62d1f;
+}
+.myButton-red:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton-orange {
+	background-color:#faba55;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #dca44b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:20px;
+	padding:10px 30px;
+	text-decoration:none;
+}
+.myButton-orange:hover {
+	background-color:#eda532;
+}
+.myButton-orange:active {
+	position:relative;
+	top:1px;
+}

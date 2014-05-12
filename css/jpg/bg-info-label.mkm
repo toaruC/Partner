@@ -1,0 +1,8 @@
+<MKM version="2.0" imageFileUrl="file:///Users/yanghyou/Documents/%E6%AF%95%E8%AE%BE/Partner/css/jpg/bg-info-label.png">
+  <Marks>
+    <LengthMark direction="3" color="16711680" length="5" x="32" y="0"/>
+    <LengthMark direction="12" color="16711680" length="20" x="-0.25" y="18"/>
+    <LengthMark direction="3" color="16711680" length="30" x="56" y="0"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="16775666" offsetX="25" offsetY="10" x="38" y="22"/>
+  </Marks>
+</MKM>

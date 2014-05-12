@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>我的伙伴</title>
+	<link rel="stylesheet" href="css/css-initialized.css" type="text/css">
+	<link rel="stylesheet" href="css/global.css" type="text/css">
+	<link rel="stylesheet" href="css/mycenter-publish.css" type="text/css">
 </head>
 <body>
 	
@@ -15,30 +18,31 @@
 			<div class="nav-items">
 				<ul>
 					<li class="nav-story-item">
-						<a href="/Partner-index.html" class="nav-link">发现</a>
+						<a href="Partner-index.html" class="nav-link">发现</a>
 					</li>
 
 					<li class="nav-publish-item">
-						<a href="Partner-index.html" class="nav-link">伙伴招募</a>
+						<a href="publish.html" class="nav-link">伙伴招募</a>
 					</li>
 
 					<li class="nav-search-item">
 						<form action="/search" method="GET">
-                            <div class="search-wrapper">
-                                <input id="search"  name="search" class="search-input" type="text"  placeholder="搜下小伙伴们想吃什么" value="">
-                                <button type="submit" class="search-icon">搜索</button>
-                            </div>
-                        </form>
+							<div class="search-wrapper">
+								<input id="search"  name="search" class="search-input" type="text"  placeholder="搜下小伙伴们想吃什么" value="">
+								<button type="submit" class="search-icon">搜索</button>
+							</div>
+						</form>
 					</li>
 
 					<li class="nav-mycenter-item">
-						<a class="profile-link" href="/mycenter">
-                            <img width="40" height="40" src="#" alt="小太阳">
-                            我的伙伴
-                        </a>
+						<a class="profile-link" href="mycenter-apply.html">
+							<img width="40" height="40" src="css/jpg/pic-xiaotaiyang40.png" alt="小太阳">
+							我的伙伴
+						</a>
 					</li>
 				</ul>
 			</div>
+			<div class="clear"></div>
 		</div>
 	</nav>
 	<!-- navigation ends -->
@@ -49,24 +53,24 @@
 		<!-- content -->
 		<div class="content">
 			<article>
-				<div class="tab-list">
+				<div class="tab-list shadow-box">
 					<ul>
-						<li class="tab-item">
-							<a href="/mycenter/apply.html">我的搭伙</a>
+						<li class="tab-item tab-item-left">
+							<a href="mycenter-apply.html">我的搭伙</a>
 						</li>
-						<li class="tab-item">
-							<a href="/mycenter/publish.html">我的发布</a>
+						<li class="tab-item tab-item-present">
+							<a href="mycenter-publish.html">我的发布</a>
 						</li>
 					</ul>
 				</div>
 
-				<div class="publish-list">
+				<div class="publish-list shadow-box">
 					<ul>
 						<li class="publish-item">
-							<div class="publish-imgbox">
-								<img src="#" alt="小绿龙">
+							<div class="publish-imgbox float-left">
+								<img src="css/jpg/pic-mycenter-publish-xiaolvlong.jpg" alt="小绿龙">
 							</div>
-							<div class="publish-info">
+							<div class="publish-info float-left">
 								<h1 class="info-title">用户【小绿龙】申请成为您的小伙伴</h1>
 								<h2 class="info-subtitle">申请搭伙-<a href="/detail/zhengwei.html">正味厨房</a></h2>
 								<p class="info-text"><span class="info-label">手机</span>10987654321
@@ -76,16 +80,18 @@
 								<p class="info-message">我也想吃那家！
 									可以的话一起吧~电话约详细吧: )</p>
 							</div>
-							<div class="publish-status">
-								 <button type="submit" class="status-pass-btn">通过</button>
-								 <button type="submit" class="status-reject-btn">拒绝</button>
+							<div class="publish-status clear">
+								<a href="#" class="myButton-red">通过</a>
+								<a href="#" class="myButton-orange">拒绝</a>
+								 <!-- <button type="submit" class="status-pass-btn">通过</button>
+								 <button type="submit" class="status-reject-btn">拒绝</button> -->
 							</div>
 						</li>
 						<li class="publish-item">
-							<div class="publish-imgbox">
-								<img src="#" alt="小绿龙">
+							<div class="publish-imgbox float-left">
+								<img src="css/jpg/pic-mycenter-publish-xiaolvlong.jpg" alt="小绿龙">
 							</div>
-							<div class="publish-info">
+							<div class="publish-info float-left">
 								<h1 class="info-title">用户【小绿龙】申请成为您的小伙伴</h1>
 								<h2 class="info-subtitle">申请搭伙-<a href="/detail/zhengwei.html">正味厨房</a></h2>
 								<p class="info-text"><span class="info-label">手机</span>10987654321
@@ -95,15 +101,15 @@
 								<p class="info-message">我也想吃那家！
 									可以的话一起吧~电话约详细吧: )</p>
 							</div>
-							<div class="publish-status">
+							<div class="publish-status clear">
 								 <span class="status-pass">已通过</span>
 							</div>
 						</li>
-						<li class="publish-item">
-							<div class="publish-imgbox">
-								<img src="#" alt="小绿龙">
+						<li class="publish-item publish-item-last">
+							<div class="publish-imgbox float-left">
+								<img src="css/jpg/pic-mycenter-publish-xiaolvlong.jpg" alt="小绿龙">
 							</div>
-							<div class="publish-info">
+							<div class="publish-info float-left">
 								<h1 class="info-title">用户【小绿龙】申请成为您的小伙伴</h1>
 								<h2 class="info-subtitle">申请搭伙-<a href="/detail/zhengwei.html">正味厨房</a></h2>
 								<p class="info-text"><span class="info-label">手机</span>10987654321
@@ -113,7 +119,7 @@
 								<p class="info-message">我也想吃那家！
 									可以的话一起吧~电话约详细吧: )</p>
 							</div>
-							<div class="publish-status">
+							<div class="publish-status clear">
 								 <span class="status-reject">已拒绝</span>
 							</div>
 						</li>
@@ -121,16 +127,13 @@
 				</div>
 			</article>
 			
-			<aside>
+			<aside class="shadow-box">
 				<h2>- 发布人 -</h2>
-				<img src="#" alt="小太阳">
+				<img src="css/jpg/pic-detail-publisher.png" alt="小太阳">
 				<h3>公开的资料</h3>
-				<p>
-					<span>昵称</span>小太阳
-					<span>性别</span>女
-					<span>爱好</span>甜品、川菜
-				</p>
-			</aside>
+				<p>昵称&nbsp;&nbsp;&nbsp;&nbsp;小太阳</p>
+				<p>性别&nbsp;&nbsp;&nbsp;&nbsp;女</p>
+				<p>爱好&nbsp;&nbsp;&nbsp;&nbsp;甜品、川菜</p>
 			</aside>
 		</div>
 		<!-- content ends here -->

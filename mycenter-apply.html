@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>我的伙伴</title>
+	<link rel="stylesheet" href="css/css-initialized.css" type="text/css">
+	<link rel="stylesheet" href="css/global.css" type="text/css">
+	<link rel="stylesheet" href="css/mycenter-apply.css" type="text/css">
 </head>
 <body>
 	
@@ -15,61 +18,62 @@
 			<div class="nav-items">
 				<ul>
 					<li class="nav-story-item">
-						<a href="/Partner-index.html" class="nav-link">发现</a>
+						<a href="Partner-index.html" class="nav-link">发现</a>
 					</li>
 
 					<li class="nav-publish-item">
-						<a href="Partner-index.html" class="nav-link">伙伴招募</a>
+						<a href="publish.html" class="nav-link">伙伴招募</a>
 					</li>
 
 					<li class="nav-search-item">
 						<form action="/search" method="GET">
-                            <div class="search-wrapper">
-                                <input id="search"  name="search" class="search-input" type="text"  placeholder="搜下小伙伴们想吃什么" value="">
-                                <button type="submit" class="search-icon">搜索</button>
-                            </div>
-                        </form>
+							<div class="search-wrapper">
+								<input id="search"  name="search" class="search-input" type="text"  placeholder="搜下小伙伴们想吃什么" value="">
+								<button type="submit" class="search-icon">搜索</button>
+							</div>
+						</form>
 					</li>
 
 					<li class="nav-mycenter-item">
-						<a class="profile-link" href="/mycenter">
-                            <img width="40" height="40" src="#" alt="小太阳">
-                            我的伙伴
-                        </a>
+						<a class="profile-link" href="mycenter-apply.html">
+							<img width="40" height="40" src="css/jpg/pic-xiaotaiyang40.png" alt="小太阳">
+							我的伙伴
+						</a>
 					</li>
 				</ul>
 			</div>
+			<div class="clear"></div>
 		</div>
 	</nav>
 	<!-- navigation ends -->
 
-    <!-- wrapper -->
+	<!-- wrapper -->
 	<div class="wrapper">
 
 		<!-- content -->
 		<div class="content">
 			<article>
-				<div class="tab-list">
+				<div class="tab-list shadow-box">
 					<ul>
-						<li class="tab-item">
-							<a href="/mycenter/apply.html">我的搭伙</a>
+						<li class="tab-item tab-item-left tab-item-present">
+							<a href="mycenter-apply.html">我的搭伙</a>
 						</li>
 						<li class="tab-item">
-							<a href="/mycenter/publish.html">我的发布</a>
+							<a href="mycenter-publish.html">我的发布</a>
 						</li>
 					</ul>
 				</div>
 
-				<div class="apply-list">
+				<div class="apply-list shadow-box">
 					<ul>
 						<li class="apply-item">
-							<div class="apply-imgbox">
+							<div class="apply-imgbox float-left">
 								<a href="/detail/zhengwei.html">
-									<img src="#" alt="正味厨房">
+									<img src="css/jpg/pic-mycenter-apply-img-zhengwei.jpg" alt="正味厨房">
 								</a>
 							</div>
 
-							<div class="apply-info">
+							<div class="apply-info float-left">
 								<h1 class="info-title">正味厨房</h1>
 								<p class="info-text"><span class="info-label">地址</span>蓝狐区珊瑚路888号
 								</p>
@@ -78,18 +82,19 @@
 								<p class="info-text"><span class="info-label">参与人数</span>2/4人
 								</p>
 							</div>
-							<div class="apply-status">
+							<div class="apply-status float-right">
 								<span class="status-pass">已通过</span>
 							</div>
+							<div class="clear"></div>
 						</li>
 						<li class="apply-item">
-							<div class="apply-imgbox">
+							<div class="apply-imgbox float-left">
 								<a href="/detail/zhengwei.html">
-									<img src="#" alt="正味厨房">
+									<img src="css/jpg/pic-mycenter-apply-img-zhengwei.jpg" alt="正味厨房">
 								</a>
 							</div>
 
-							<div class="apply-info">
+							<div class="apply-info float-left">
 								<h1 class="info-title">正味厨房</h1>
 								<p class="info-text"><span class="info-label">地址</span>蓝狐区珊瑚路888号
 								</p>
@@ -98,18 +103,19 @@
 								<p class="info-text"><span class="info-label">参与人数</span>2/4人
 								</p>
 							</div>
-							<div class="apply-status">
-								<span class="status-applying">已通过</span>
+							<div class="apply-status float-right">
+								<span class="status-applying">申请中</span>
 							</div>
+							<div class="clear"></div>
 						</li>
-						<li class="apply-item">
-							<div class="apply-imgbox">
+						<li class="apply-item apply-item-last">
+							<div class="apply-imgbox float-left">
 								<a href="/detail/zhengwei.html">
-									<img src="#" alt="正味厨房">
+									<img src="css/jpg/pic-mycenter-apply-img-zhengwei.jpg" alt="正味厨房">
 								</a>
 							</div>
 
-							<div class="apply-info">
+							<div class="apply-info float-left">
 								<h1 class="info-title">正味厨房</h1>
 								<p class="info-text"><span class="info-label">地址</span>蓝狐区珊瑚路888号
 								</p>
@@ -118,24 +124,22 @@
 								<p class="info-text"><span class="info-label">参与人数</span>2/4人
 								</p>
 							</div>
-							<div class="apply-status">
+							<div class="apply-status float-right">
 								<span class="status-reject">未通过</span>
 							</div>
+							<div class="clear"></div>
 						</li>
 					</ul>
 				</div>
 			</article>
 			
-			<aside>
+			<aside class="shadow-box">
 				<h2>- 发布人 -</h2>
-				<img src="#" alt="小太阳">
+				<img src="css/jpg/pic-detail-publisher.png" alt="小太阳">
 				<h3>公开的资料</h3>
-				<p>
-					<span>昵称</span>小太阳
-					<span>性别</span>女
-					<span>爱好</span>甜品、川菜
-				</p>
-			</aside>
+				<p>昵称&nbsp;&nbsp;&nbsp;&nbsp;小太阳</p>
+				<p>性别&nbsp;&nbsp;&nbsp;&nbsp;女</p>
+				<p>爱好&nbsp;&nbsp;&nbsp;&nbsp;甜品、川菜</p>
 			</aside>
 		</div>
 		<!-- content ends here -->

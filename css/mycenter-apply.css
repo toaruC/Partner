@@ -1,0 +1,104 @@
+/*@group -----structure----*/
+article{
+	float: left;
+	width: 69.3%;
+	max-width: 61em;
+}
+
+aside{
+	float: left;
+	width: 28.2%;
+	max-width: 24.8em;
+	margin-left: 2%;
+	padding: 1em 0;
+	text-align: center;
+}
+aside img{
+	margin: 1em 0;
+}
+
+.apply-list ul{
+	display: inline-block;
+	width: 100%;
+}
+.apply-list li{
+	padding-bottom: 1em;
+	border-bottom: 1px #eeeeee solid;
+}
+li.apply-item-last{
+	border:none;
+	margin-bottom: 1em;
+}
+
+.apply-imgbox{
+	margin: 1em;
+}
+
+.apply-info h1{
+	margin: 1.3em 0.4em;
+}
+
+.apply-status{
+	margin-top: 7.3em;
+	margin-right: 2em;
+}
+
+/*@group -----text----*/
+aside h2{
+	font-size: 1.8em;
+	color: #666666;
+}
+aside h3{
+	font-size: 1.8em;
+	color: #444444;
+	line-height: 2em;
+}
+aside p{
+	font-size: 1.6em;
+	color: #666666;
+	line-height: 2em;
+	text-align: left;
+	margin-left: 3em;
+}
+
+.apply-info h1{
+	font-size: 2em;
+	color: #666666;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+}
+
+.apply-status .status-pass{
+	display: inline-block;
+	border: 2px rgb(250,115,97) solid;
+	border-radius: 5px;
+	font-size: 1.8em;
+	width: 6em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	color: rgb(240,115,97);
+}
+.apply-status .status-applying{
+	display: inline-block;
+	border: 2px rgb(118,188,25) solid;
+	border-radius: 5px;
+	font-size: 1.8em;
+	width: 6em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	color: rgb(118,188,25);
+}
+.apply-status .status-reject{
+	display: inline-block;
+	border: 2px #999999 solid;
+	border-radius: 5px;
+	font-size: 1.8em;
+	width: 6em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	color: #999999;
+}
+/*@group -----button----*/

@@ -1,0 +1,137 @@
+/*@group -----structure----*/
+article{
+	float: left;
+	width: 64%;
+	margin-left: 3%;
+	margin-right: 2.7%;
+	max-width: 580px;
+}
+aside{
+	float: left;
+	width: 26%;
+	max-width: 230px;
+	margin-left: 2.3%;
+	margin-top: 6.8em;
+}
+
+.apply-title h1{
+	margin: 1em 0 1.47em 0;
+	/*---font-size:3em=30px---*/
+}
+
+.apply-title p{
+	/*---font-size:2em=20px---*/
+	margin: 0 0 2.3em 0;
+}
+
+.personal-info{
+	padding-bottom: 1em;
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 2em;
+}
+#your-name{
+	width: 10em;
+}
+#your-tel{
+	width: 13em;
+}
+#your-gender{
+	/*background: url(jpg/ico-publish-date.png) no-repeat 6.5em;*/
+	width: 4em;
+}
+
+/*.personal-messagebox{
+	padding-top: 2em;
+	border-top: 1px solid #eeeeee;
+	margin-top: 3em;
+}*/
+#your-message{
+	display: block;
+	width: 27em;
+	height: 11em;
+}
+.personal-messagebox label{
+	margin-bottom: 1em;
+}
+aside h1{
+	margin-bottom: 1.8em;
+}
+aside p{
+	margin-bottom: 0.5em;
+	line-height: 1.4em;
+}
+
+.gender-radio{
+	display: inline;
+}
+
+/*@group -----text-----*/
+.apply-title h1{
+	font-size: 3em;
+	color: #f07361;
+	letter-spacing:0.06em;
+	font-weight: normal;
+}
+
+.apply-title h1 span{
+	font-size: 1.2em;
+	color: #98d443;
+}
+
+.apply-title p{
+	font-size: 2em;
+	color: #cccccc;
+	letter-spacing: 0.08em;
+}
+
+aside h1{
+	font-size: 1.8em;
+	color: #666666;
+	font-weight: normal;
+}
+
+aside p{
+	line-height: 1.5em;
+	font-size: 1.4em;
+	color: #666666;
+	font-weight: normal;
+}
+
+
+
+/*@grout -----button-----*/
+#your-gender-male{
+	border: none;
+	outline: none;
+}
+#your-gender-female{
+	border: none;
+	outline: none;
+}
+#your-gender-secret{
+	border: none;
+	outline: none;
+}
+
+.myButton {
+	background-color:#f24537;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:20px;
+	padding:15px 76px;
+	text-decoration:none;
+	margin-bottom: 2em;
+}
+.myButton:hover {
+	background-color:#c62d1f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

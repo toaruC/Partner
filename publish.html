@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>发布招募</title>
+	<link rel="stylesheet" href="css/css-initialized.css" type="text/css">
+	<link rel="stylesheet" href="css/global.css" type="text/css">
+	<link rel="stylesheet" href="css/publish.css" type="text/css">
+</head>
+<body>
+	<!-- navigation -->
+	<nav class="global-nav">
+		<div class="nav-wrapper">
+			<div class="nav-logo">
+				<a href="/Partner-index.html" title="伙伴">伙伴</a>
+			</div>
+			<div class="nav-items">
+				<ul>
+					<li class="nav-story-item">
+						<a href="Partner-index.html" class="nav-link">发现</a>
+					</li>
+
+					<li class="nav-publish-item">
+						<a href="publish.html" class="nav-link">伙伴招募</a>
+					</li>
+
+					<li class="nav-search-item">
+						<form action="/search" method="GET">
+							<div class="search-wrapper">
+								<input id="search"  name="search" class="search-input" type="text"  placeholder="搜下小伙伴们想吃什么" value="">
+								<button type="submit" class="search-icon">搜索</button>
+							</div>
+						</form>
+					</li>
+
+					<li class="nav-mycenter-item">
+						<a class="profile-link" href="mycenter-apply.html">
+							<img width="40" height="40" src="css/jpg/pic-xiaotaiyang40.png" alt="小太阳">
+							我的伙伴
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</nav>
+	<!-- navigation ends -->
+
+	<!-- wrapper -->
+	<div class="wrapper">
+		<div class="content shadow-box">
+			<article>
+				<div class="publish-title">
+					<h1><span>发</span>布招募</h1>
+					<p>1. 填写店铺信息 > 2. 填写个人要求 > 3. 发布招募</p>
+				</div>
+				<div class="publish-info">
+
+					<div>
+						<label for="publish-name">店铺名称</label>
+						<input type="text" name="publish-name" id="publish-name" placeholder="输入店铺名称">
+					</div>
+					
+					<div>
+						<label for="publish-address">店铺地址</label>
+						<input type="text" name="publish-address" id="publish-address" placeholder="输入店铺地址">
+					</div>
+					
+					<div>
+						<label for="publish-date">活动日期</label>
+						<input type="text" name="publish-date" id="publish-date" placeholder="活动日期">
+					</div>
+					
+					<div>
+						<label for="publish-membernum">参与人数</label>
+						<input type="text" name="publish-membernum" id="publish-membernum" placeholder="输入人数">
+					</div>
+					
+					<div>
+						<label for="publish-price">人均</label>
+						<input type="text" name="publish-price" id="publish-price" placeholder="人均花费">
+						<span>￥/人</span>
+					</div>
+					
+
+				</div>
+				<div class="publish-imgbox">
+					<form>
+						<input type="file" name="publish-image" id="publish-image" accept="image/jpg" />
+					</form>
+				</div>
+				<div class="publish-messagebox">
+					<label for="publish-message">发布者留言</label>
+					<textarea name="publish-message" id="publish-message" cols="30" rows="10" placeholder="告诉小伙伴们你想吃什么，不想吃的东西也可以写下来哟~"></textarea>
+				</div>
+				<a href="zhengwei.html" class="myButton">发布</a>
+			</article>
+
+			<aside>
+				<h1>什么是合适的同城活动？</h1>
+				<p>1.有能最终确定的活动起止日期</p>
+				<p>2.具备现实中能集体参与的活动地点</p>
+				<p>3.是多人在现实中能碰面的活动</p>
+				<br />
+				<p>为了增加活动的真实性，请提供准确信息。</p>
+				<br />
+				<br />
+
+				<h1>如何才能让你的活动更吸引人？</h1>
+				<p>1.标题简单明了</p>
+				<p>2.活动内容和特点介绍详细</p>
+				<p>3.活动海报吸引人眼球</p>
+				<br />
+				<p>更重要的是，邀请好友们都来参与！</p>
+			</aside>
+			<!--this empty element makes the whole div surround the float element -->
+			<br class="clear"/>
+		</div>
+		<div class="footer">
+			<span>
+				&copy; 2005－2014, created by taruC, all rights reserved
+			</span>
+		</div>
+	</div>
+	<!-- wrapper ends -->
+</body>
+</html>

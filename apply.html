@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>申请搭伙</title>
+	<link rel="stylesheet" href="css/css-initialized.css" type="text/css">
+	<link rel="stylesheet" href="css/global.css" type="text/css">
+	<link rel="stylesheet" href="css/apply.css" type="text/css">
+</head>
+<body>
+	<!-- navigation -->
+	<nav class="global-nav">
+		<div class="nav-wrapper">
+			<div class="nav-logo">
+				<a href="/Partner-index.html" title="伙伴">伙伴</a>
+			</div>
+			<div class="nav-items">
+				<ul>
+					<li class="nav-story-item">
+						<a href="Partner-index.html" class="nav-link">发现</a>
+					</li>
+
+					<li class="nav-publish-item">
+						<a href="publish.html" class="nav-link">伙伴招募</a>
+					</li>
+
+					<li class="nav-search-item">
+						<form action="/search" method="GET">
+							<div class="search-wrapper">
+								<input id="search"  name="search" class="search-input" type="text"  placeholder="搜下小伙伴们想吃什么" value="">
+								<button type="submit" class="search-icon">搜索</button>
+							</div>
+						</form>
+					</li>
+
+					<li class="nav-mycenter-item">
+						<a class="profile-link" href="mycenter-apply.html">
+							<img width="40" height="40" src="css/jpg/pic-xiaotaiyang40.png" alt="小太阳">
+							我的伙伴
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</nav>
+	<!-- navigation ends -->
+
+	<!-- wrapper -->
+	<div class="wrapper">
+		<div class="content shadow-box">
+			<article>
+				<div class="apply-title">
+					<h1><span>申</span>请搭伙</h1>
+					<p>1. 填写个人信息 > 2. 填写留言 > 3. 提交申请</p>
+				</div>
+				<div class="personal-info">
+
+					<div>
+						<label for="your-name">姓名</label>
+						<input type="text" name="your-name" id="your-name" placeholder="输入您的真实姓名">
+					</div>
+					
+					<div>
+						<label for="your-tel">电话</label>
+						<input type="text" name="your-tel" id="your-tel" placeholder="输入您的联系方式">
+					</div>
+					
+					<div  class="your-gender">
+						<label for="your-gender">性别</label>
+						<!-- <label for="your-gender-male"><input type="radio" name="your-gender-male" id="your-gender-male" value="yes">男</label>
+						<label for="your-gender-female"><input type="radio" name="your-gender-female" id="your-gender-female" value="no">女</label> -->
+
+						<div class="gender-radio">
+							<label for="your-gender-male"><input type="radio" name="sex" id="your-gender-male" value="male" /> 男</label>
+							<label for="your-gender-female"><input type="radio" name="sex" id="your-gender-female" value="female" /> 女</label>
+							<label for="your-gender-secret"><input type="radio" name="sex" id="your-gender-secret" value="secret" /> 保密</label>
+						</div>
+						
+					</div>
+
+				</div>
+
+				<div class="personal-messagebox clear">
+					<label for="your-message">申请者留言</label>
+					<textarea name="your-message" id="your-message" cols="30" rows="10" placeholder="告诉发布者您的申请理由，更容易通过哟~"></textarea>
+				</div>
+				<a href="zhengwei.html" class="myButton">提交</a>
+			</article>
+
+			<aside>
+				<h1>为什么要输入真实信息？</h1>
+				<p>1.方便您与发布者联系</p>
+				<p>2.展示您参与活动的真诚度</p>
+				<p>3.多人在现实中能碰面的活动</p>
+				<br />
+				<p>为了增加活动的真实性，请提供准确信息。</p>
+				<br />
+				<br />
+
+				<h1>如何才能让你的申请更吸引人？</h1>
+				<p>1.理由简洁明确</p>
+				<p>2.描述更多关于个人的情况</p>
+				<p>3.附上更多真实信息更吸引人</p>
+				<br />
+				<p>更重要的是，邀请好友们都来参与！</p>
+			</aside>
+			<!--this empty element makes the whole div surround the float element -->
+			<br class="clear"/>
+		</div>
+		<div class="footer">
+			<span>
+				&copy; 2005－2014, created by taruC, all rights reserved
+			</span>
+		</div>
+	</div>
+	<!-- wrapper ends -->
+</body>
+</html>

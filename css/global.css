@@ -1,0 +1,255 @@
+/*@group -----structure----*/
+
+/*@group -----text----*/
+
+/*@group -----button----*/
+
+
+body{
+	background-color: #eee;
+	font-size: 10px;
+
+}
+
+.shadow-box{
+display: block;
+background-color: #fff;
+margin-bottom: 2em;
+box-shadow: 0px 0px 8px rgb(228,228,228);
+border-radius: 5px;
+}
+
+.clear{
+	clear: both;
+}
+
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+
+*:focus {
+	outline: 1px #f07361 solid;
+}
+
+label{
+	display: inline-block;
+	font-size: 2em;
+	color: #777777;
+	width: 5em;
+	margin-bottom: 25px;
+}
+
+input{
+	height: 38px;
+	border:0;
+	outline: 1px #cccccc solid;
+	line-height:38px; 
+	margin-bottom: 25px;
+	padding-left: 8px;
+}
+
+input[placeholder]{
+	font-size: 1.8em;
+}
+
+textarea{
+	border: 0;
+	outline: 1px #cccccc solid;
+	padding: 0.5em;
+	margin-bottom: 2.5em;
+}
+
+.info-text{
+	font-size: 1.8em;
+	color: rgb(102,102,102);
+	line-height: 2em;
+}
+.info-label{
+	/*CSS3 new attribute*/
+	border-width: 5px 8px 5px 20px;
+	-webkit-border-image: url(jpg/bg-info-label.png) 5 20 round;
+	-o-border-image: url(jpg/bg-info-label.png) 5 20 round;
+	-moz-border-image: url(jpg/bg-info-label.png) 5 20 round;
+	/*if make this active, middle field will not be round but empty*/
+	/*border-image: url(jpg/bg-info-label.png) 5 20 round;*/
+	font-size: 18px;
+	color: rgb(250,115,97);
+	line-height: 2em;
+	margin-right: 1em;
+	font-weight: normal;
+}
+
+.tab-list{
+	width: 100%;
+	max-width: 61em;
+	height: 4em;
+	background-color: rgb(247,247,247);
+	border:1px rgb(221,221,221) solid;
+	margin-bottom: 1em;
+}
+.tab-item{
+	float: left;
+	width: 10em;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	border-right: 1px #dddddd solid;
+	cursor:pointer;
+}
+.tab-item-present{
+	background-color: #fff;
+}
+.tab-item-left{
+		border-radius: 5px 0 0 5px;
+}
+.tab-item a{
+	display: block;
+	width: 100%;
+	height: 4em;
+	text-decoration: none;
+	font-size: 1.8em;
+	color: #666666;
+	letter-spacing: 0.13em;
+}
+.tab-item:hover{
+	background-color: #fff;
+}
+
+.wrapper{
+	width:62%;
+	margin:0 auto;
+}
+
+.footer{
+	clear: both;
+	height: 2em;
+	border-top: 1pt solid #ddd;
+	padding-top: 1em;
+	font-size: 2em;
+	color: #ccc;
+}
+
+nav{
+	width:100%;
+	height: 6em;
+	max-height: 60px;
+	margin-bottom: 2em;
+	background-color: #fdfaf5;
+	box-shadow: 0px 1px 0px rgb(247, 214, 206);
+}
+
+.nav-wrapper{
+	width:66%;
+	margin:0 auto;
+}
+
+.nav-logo{
+	width:15.5em;
+	max-width: 155px;
+	height: 7.4em;
+	max-height: 74px;
+	margin-right: 1em;
+	text-indent: -1000em;
+	background: url(jpg/Logo.png) no-repeat left top;
+	float: left;
+}
+
+.nav-items li{
+	float:left;
+	display: block;
+	position: relative;
+}
+
+.nav-link{
+	width: 1em;
+	max-width: 100px;
+	margin-right: 1.2em;
+}
+
+a.nav-link:link,
+a.nav-link:visited{
+	font-size: 2em;
+	text-decoration: none;
+	line-height: 3em;
+	color: #f07361;
+}
+a.nav-link:hover{
+	border-bottom: 0.3em #F6A085;
+	border-style: solid;
+	padding-bottom: 0.7em;
+}
+
+
+li.nav-search-item{
+	margin-left: 3em;
+}
+
+.search-wrapper{
+	height: 100%%;
+	max-height: 60px;
+	padding-top: 0.7em;
+}
+
+input.search-input{
+	font-size: 1.8em;
+	height: 2em;
+	max-height: 40px;
+	width: 15em;
+	max-width: 260px;
+	padding-left: 0.6em;
+	border: 0;
+	outline: none;
+}
+button.search-icon{
+	border:0;
+	font-size: 1.8em;
+	height: 2em;
+	max-height: 40px;
+	width: 4em;
+	max-height: 64px;
+	background: #f07361;
+	margin-left: 0;
+	color: #fff;
+	cursor:pointer;
+	}
+
+button.search-icon:hover{
+	border:0;
+	font-size: 1.8em;
+	height: 2em;
+	max-height: 40px;
+	width: 4em;
+	max-height: 64px;
+	background: #D65F4E;
+	margin-left: 0;
+	color: #fff;
+	}
+
+.profile-link{
+	text-decoration: none;
+	font-size: 1.8em;
+	color: #f07361;
+}
+
+.profile-link img{
+	vertical-align: middle;
+}
+.profile-link{
+	display: inline;
+	line-height: 3.3em;
+	max-height: 33px;
+}
+/*Q: why there's not generating a separator?*/
+.nav-mycenter-item{
+	display: inline;
+	padding-left: 3em;
+	max-width: 120px;
+	border-style: solid;
+	border-left: 1px #fbe8e2;
+}
+a.profile-link:hover{
+	color:#D65F4E;
+}
